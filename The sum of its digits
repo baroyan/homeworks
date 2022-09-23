@@ -1,0 +1,7 @@
+number = input("Please enter a number. ")
+summ = 0
+
+for digit in number:
+	summ += int(digit)
+    
+print(f'The sum of digits of {number} number is {summ}')
